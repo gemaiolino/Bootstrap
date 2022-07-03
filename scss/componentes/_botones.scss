@@ -1,12 +1,12 @@
 .boton button {
     border-radius: 10px;
-    background-color: #376EFA;
+    background-color: $color-principal;
     color: white;
 
 
     &:hover {
         background-color: white;
-        color: #376EFA;
+        color: $color-principal;
     }
 
 }
