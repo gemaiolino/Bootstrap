@@ -1,110 +1,88 @@
-
-
-.colorazul{
-    color: #376EFA;
+header h1 span {
+  color: #376EFA;
 }
 
-
-.azul{
-    background-color: #00094F;
+nav {
+  background-color: black;
+}
+nav ul {
+  list-style: none;
+}
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: white;
+  color: #376EFA;
 }
 
-
-/* =================================================================================== */
-/* ---------------------------header------------------------------------------------ */
-/* =================================================================================== */   
-header h1 span{
-    color: #376EFA;
-}
-nav{
-    background-color:black;
+.transicion {
+  transition-duration: 2s;
 }
 
-li  a{
-    list-style:none;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    
-    
-
-}
-ul li a:hover{
-    background-color: white;
-    color:#376EFA;
+.transicion:hover {
+  transform: scale(2);
 }
 
-
-
-/* =================================================================================== */
-/* ---------------------------main------------------------------------------------ */
-/* =================================================================================== */  
-
-.formulario{
-    
-    background-image: url(../imagenes/logos/silla-ruedas-discapacidad-909180.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.sombra {
+  box-shadow: 20px 20px 20px;
+  transition-duration: 2s;
 }
 
-
-
-.transicion{
-    transition-duration: 2s;
-}
-.transicion:hover{
-    transform:scale(2);
-    
+.mobimiento {
+  position: relative;
+  animation-name: redes;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
 }
 
-.sombra{
-    box-shadow: 20px 20px 20px;
-    transition-duration: 2s;
+@keyframes redes {
+  0% {
+    right: 0px;
+    left: 0px;
+  }
+  25% {
+    right: 10px;
+    left: 10px;
+  }
+  50% {
+    right: 50px;
+    left: 50px;
+  }
+  75% {
+    right: 100%;
+    left: 100px;
+  }
+  100% {
+    right: 0px;
+    left: 0px;
+  }
+}
+.boton button {
+  border-radius: 10px;
+  background-color: #376EFA;
+  color: white;
+}
+.boton button:hover {
+  background-color: white;
+  color: #376EFA;
 }
 
-.boton button{
-    border-radius: 10px;
-    background-color:#376EFA;
-    color: white;  
+.colorazul {
+  color: #376EFA;
 }
 
-.boton button:hover{
-    background-color: white;
-    color:#376EFA;
+.azul {
+  background-color: #00094F;
 }
 
-/* =================================================================================== */
-/* ---------------------------footer------------------------------------------------ */
-/* =================================================================================== */  
-
-.mobimiento{
-    position: relative;
-    animation-name: redes;
-    animation-duration: 10s;
-    animation-iteration-count: 5;
-}
-@keyframes redes{
-    0%{
-        right: 0px;
-        left: 0px
-    }
-    25%{
-        right: 10px;
-        left: 10px;
-    }
-    50%{
-        right: 50px;
-        left: 50px;
-    }
-    75%{
-        right: 100%;
-        left: 100px;
-    }
-    100%{
-        right: 0px;
-        left: 0px;
-    }
+.formulario {
+  background-image: url(../imagenes/logos/silla-ruedas-discapacidad-909180.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-
-
+/*# sourceMappingURL=style.css.map */

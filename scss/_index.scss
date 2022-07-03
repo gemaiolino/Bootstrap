@@ -1,0 +1,13 @@
+.transicion {
+    transition-duration: 2s;
+}
+
+.transicion:hover {
+    transform: scale(2);
+
+}
+
+.sombra {
+    box-shadow: 20px 20px 20px;
+    transition-duration: 2s;
+}

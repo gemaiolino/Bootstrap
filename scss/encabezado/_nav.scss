@@ -1,0 +1,27 @@
+header h1 span {
+    color:$color-principal;
+}
+
+nav {
+    background-color: black;
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+
+
+
+        &:hover {
+            background-color: white;
+            color: $color-principal;
+        }
+
+    }
+}

@@ -1,0 +1,33 @@
+.mobimiento {
+    position: relative;
+    animation-name: redes;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+}
+
+@keyframes redes {
+    0% {
+        right: 0px;
+        left: 0px
+    }
+
+    25% {
+        right: 10px;
+        left: 10px;
+    }
+
+    50% {
+        right: 50px;
+        left: 50px;
+    }
+
+    75% {
+        right: 100%;
+        left: 100px;
+    }
+
+    100% {
+        right: 0px;
+        left: 0px;
+    }
+}
