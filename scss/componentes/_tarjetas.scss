@@ -1,0 +1,21 @@
+.tarjeta {
+    width: 18rem;
+    border: solid yellow 1px;
+    border-radius: 16px;
+
+    img {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+}
+
+.tarjeta-flota {
+    @extend.tarjeta;
+    border: solid $color-secundario 1px;
+}
+
+.tarjeta-app {
+    @extend.tarjeta;
+    border: solid $color-principal 1px;
+}

@@ -71,18 +71,54 @@ nav a:hover {
   color: #376EFA;
 }
 
-.colorazul {
-  color: #376EFA;
+.tarjeta, .tarjeta-app, .tarjeta-flota {
+  width: 18rem;
+  border: solid yellow 1px;
+  border-radius: 16px;
+}
+.tarjeta img, .tarjeta-app img, .tarjeta-flota img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
-.azul {
-  background-color: #00094F;
+.tarjeta-flota {
+  border: solid #00094F 1px;
+}
+
+.tarjeta-app {
+  border: solid #376EFA 1px;
 }
 
 .formulario {
   background-image: url(../imagenes/logos/silla-ruedas-discapacidad-909180.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+footer {
+  background-color: rgba(0, 9, 79, 0.6588235294);
+}
+
+.redes-instagram {
+  color: rgb(199, 53, 53);
+}
+
+.redes-facebook {
+  color: rgb(56, 56, 209);
+}
+
+.redes-whatsapp {
+  color: rgb(102, 192, 102);
+}
+
+.redes-linkedin {
+  color: blue;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

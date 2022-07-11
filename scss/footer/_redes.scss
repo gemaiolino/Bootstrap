@@ -1,0 +1,33 @@
+$redes: (
+    instagram: $color-instagram,
+    facebook: $color-facebook,
+    whatsapp: $color-whatsapp,
+    linkedin: $color-linkedin
+);
+
+.redes-instagram {
+    color: map-get($redes, "instagram");
+}
+
+.redes-facebook {
+    color: map-get($redes , "facebook");
+}
+
+.redes-whatsapp {
+    color: map-get($redes , "whatsapp");
+}
+
+.redes-linkedin {
+    color: map-get($redes , "linkedin");
+}
+
+@mixin display-flex ($justify, $aling){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+.redes{
+    @include display-flex(center, center);
+}
+    
