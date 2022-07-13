@@ -1,5 +1,6 @@
 @import"utilidades/variables";
 
+
 @import"encabezado/nav";
 
 @import"animaciones/gradientes";
@@ -9,9 +10,11 @@
 @import"componentes/botones";
 @import"componentes/tarjetas";
 
-@import"reset/colores";
 
 @import"imagenes/fondos";
 
 @import"footer/color";
 @import"footer/redes";
+
+@import"main/estilos";
+@import"main/grilla";

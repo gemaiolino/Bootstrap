@@ -1,0 +1,235 @@
+@media (min-width: 1024px) {
+    .obraSociales article {
+        padding: 70px;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "galeno integral""iosfa jerarquicos ""medicus omas""osde osdepym ""osecac osfatlyf""osfe ospecon""ospf ospsa""pami sancorsalud""osen unionPersonal";
+    }
+
+    .galeno {
+
+        grid-area: galeno;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .integral {
+        grid-area: integral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iosfa {
+        grid-area: iosfa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jerarquicos {
+        grid-area: jerarquicos;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .medicus {
+        grid-area: medicus;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .omas {
+        grid-area: omas;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osde {
+        grid-area: osde;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osdepym {
+        grid-area: osdepym;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osecac {
+        grid-area: osecac;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osfatlyf {
+        grid-area: osfatlyf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osfe {
+        grid-area: osfe;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ospecon {
+        grid-area: ospecon;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ospf {
+        grid-area: ospf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ospsa {
+        grid-area: ospsa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pami {
+        grid-area: pami;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sancorsalud {
+        grid-area: sancorsalud;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .osen {
+        grid-area: osen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unionPersonal {
+        grid-area: unionPersonal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 1220px) {
+    .obraSociales article {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "galeno integral iosfa jerarquicos""medicus omas osde osdepym""osecac osfatlyf osfe ospecon""ospf ospsa pami sancorsalud""osen unionPersonal oma none";
+    }
+
+    .galeno {
+
+        grid-area: galeno;
+    }
+
+    .integral {
+        grid-area: integral;
+    }
+
+    .iosfa {
+        grid-area: iosfa;
+    }
+
+    .jerarquicos {
+        grid-area: jerarquicos;
+    }
+
+    .medicus {
+        grid-area: medicus;
+    }
+
+    .oma {
+        grid-area: omas;
+    }
+
+    .osde {
+        grid-area: osde;
+    }
+
+    .osdepym {
+        grid-area: osdepym;
+    }
+
+    .osecac {
+        grid-area: osecac;
+    }
+
+    .osfatlyf {
+        grid-area: osfatlyf;
+    }
+
+    .osfe {
+        grid-area: osfe;
+    }
+
+    .ospecon {
+        grid-area: ospecon;
+    }
+
+    .ospf {
+        grid-area: ospf;
+    }
+
+    .ospsa {
+        grid-area: ospsa;
+    }
+
+    .pami {
+        grid-area: pami;
+    }
+
+    .sancorsalud {
+        grid-area: sancorsalud;
+    }
+
+    .osen {
+        grid-area: osen;
+    }
+
+    .unionPersonal {
+        grid-area: unionPersonal;
+    }
+
+    .oma {
+        grid-area: oma;
+    }
+
+}

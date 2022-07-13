@@ -1,11 +1,11 @@
 .boton button {
     border-radius: 10px;
     background-color: $color-principal;
-    color: white;
+    color: $color-blanco;
 
 
     &:hover {
-        background-color: white;
+        background-color: $color-blanco;
         color: $color-principal;
     }
 

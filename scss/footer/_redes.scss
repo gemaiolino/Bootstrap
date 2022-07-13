@@ -21,13 +21,12 @@ $redes: (
     color: map-get($redes , "linkedin");
 }
 
-@mixin display-flex ($justify, $aling){
+@mixin display-flex ($justify, $aling) {
     display: flex;
     justify-content: $justify;
     align-items: $aling;
 }
 
-.redes{
+.redes {
     @include display-flex(center, center);
 }
-    

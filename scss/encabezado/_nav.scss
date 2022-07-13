@@ -1,9 +1,9 @@
 header h1 span {
-    color:$color-principal;
+    color: $color-principal;
 }
 
 nav {
-    background-color: black;
+    background-color: $color-negro;
 
     ul {
         list-style: none;
@@ -12,14 +12,14 @@ nav {
     a {
         list-style: none;
         text-decoration: none;
-        color: black;
+        color: $color-negro;
         font-weight: bold;
 
 
 
 
         &:hover {
-            background-color: white;
+            background-color: $color-blanco;
             color: $color-principal;
         }
 
