@@ -1,11 +1,11 @@
 .mobimiento {
     position: relative;
-    animation-name: redes;
-    animation-duration: 10s;
-    animation-iteration-count: 5;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
 }
 
-@keyframes redes {
+@keyframes logo {
     0% {
         right: 0px;
         left: 0px
@@ -29,5 +29,14 @@
     100% {
         right: 0px;
         left: 0px;
+    }
+}
+
+.transicionObraSocial {
+    transition-duration: 2s;
+
+
+    &:hover {
+        transform: scale(2);
     }
 }

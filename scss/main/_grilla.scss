@@ -12,128 +12,92 @@
     .galeno {
 
         grid-area: galeno;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .integral {
         grid-area: integral;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .iosfa {
         grid-area: iosfa;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .jerarquicos {
         grid-area: jerarquicos;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .medicus {
         grid-area: medicus;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .omas {
         grid-area: omas;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osde {
         grid-area: osde;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osdepym {
         grid-area: osdepym;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osecac {
         grid-area: osecac;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osfatlyf {
         grid-area: osfatlyf;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osfe {
         grid-area: osfe;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .ospecon {
         grid-area: ospecon;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .ospf {
         grid-area: ospf;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .ospsa {
         grid-area: ospsa;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .pami {
         grid-area: pami;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .sancorsalud {
         grid-area: sancorsalud;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .osen {
         grid-area: osen;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .unionPersonal {
         grid-area: unionPersonal;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
 
 
     }
@@ -152,7 +116,7 @@
         display: grid;
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: "galeno integral iosfa jerarquicos""medicus omas osde osdepym""osecac osfatlyf osfe ospecon""ospf ospsa pami sancorsalud""osen unionPersonal oma none";
+        grid-template-areas: "galeno integral iosfa jerarquicos""medicus omas osde osdepym""osecac osfatlyf osfe ospecon""ospf ospsa pami sancorsalud"". osen unionPersonal .";
     }
 
     .galeno {
@@ -228,8 +192,5 @@
         grid-area: unionPersonal;
     }
 
-    .oma {
-        grid-area: oma;
-    }
 
 }
