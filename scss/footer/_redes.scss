@@ -29,4 +29,9 @@ $redes: (
 
 .redes {
     @include display-flex(center, center);
+
+
+    li{
+        list-style-type: none;
+    }
 }
