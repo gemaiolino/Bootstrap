@@ -1,12 +1,13 @@
 .boton button {
     border-radius: 10px;
-    background-color: $color-principal;
+    background: linear-gradient($color-principal, $color-secundario);
     color: $color-blanco;
 
 
     &:hover {
         background-color: $color-blanco;
-        color: $color-principal;
+        color:$color-secundario;
+        
     }
 
 }

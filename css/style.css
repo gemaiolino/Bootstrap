@@ -15,13 +15,11 @@ nav a {
   font-weight: bold;
 }
 nav a:hover {
-  background-color: white;
   color: #376EFA;
 }
 
 .sombra {
   box-shadow: 20px 20px 20px;
-  transition-duration: 2s;
 }
 
 .mobimiento {
@@ -53,21 +51,21 @@ nav a:hover {
     left: 0px;
   }
 }
-.transicionObraSocial {
+.transicion {
   transition-duration: 2s;
 }
-.transicionObraSocial:hover {
-  transform: scale(2);
+.transicion:hover {
+  transform: scale(1.1);
 }
 
 .boton button {
   border-radius: 10px;
-  background-color: #376EFA;
+  background: linear-gradient(#376EFA, #00094F);
   color: white;
 }
 .boton button:hover {
   background-color: white;
-  color: #376EFA;
+  color: #00094F;
 }
 
 .tarjeta, .tarjeta-app, .tarjeta-flota {
@@ -86,6 +84,13 @@ nav a:hover {
 
 .tarjeta-app {
   border: solid #376EFA 1px;
+}
+
+.cardNosotros img {
+  width: 16rem;
+  border: solid black 1px;
+  border-radius: 16px;
+  box-shadow: 20px 20px 20px;
 }
 
 .formulario {

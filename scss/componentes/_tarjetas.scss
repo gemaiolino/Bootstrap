@@ -19,3 +19,12 @@
     @extend.tarjeta;
     border: solid $color-principal 1px;
 }
+
+.cardNosotros{
+    img{
+        width: 16rem;
+        border: solid $color-negro 1px;
+        border-radius: 16px;
+        box-shadow: 20px 20px 20px;
+    }
+}
