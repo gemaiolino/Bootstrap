@@ -35,16 +35,16 @@ nav a:hover {
     left: 0px;
   }
   25% {
-    right: 10px;
-    left: 10px;
+    right: 2px;
+    left: -2px;
   }
   50% {
-    right: 50px;
-    left: 50px;
+    right: 5px;
+    left: -5px;
   }
   75% {
-    right: 100%;
-    left: 100px;
+    right: 7%;
+    left: -7px;
   }
   100% {
     right: 0px;
